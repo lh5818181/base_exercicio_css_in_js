@@ -31,7 +31,7 @@ const Content = styled.div`
   color: #eee;
 `
 
-const HeroTitle = styled.h2`
+const HeroTitle = styled.h1`
   font-family: Gloock, serif;
   font-size: 48px;
 
@@ -40,14 +40,14 @@ const HeroTitle = styled.h2`
   }
 `
 
-const Hero = () => (
-  <Form>
-    <Content>
-      <HeroTitle>
-        As melhores vagas para tecnologia, design e artes visuais.
-      </HeroTitle>
-    </Content>
-  </Form>
-)
+const Hero = () => {
+  return (
+    <Form>
+      <Content>
+        <HeroTitle>Bem-vindo ao Hero Section</HeroTitle>
+      </Content>
+    </Form>
+  )
+}
 
 export default Hero
